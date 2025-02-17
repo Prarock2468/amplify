@@ -1,0 +1,483 @@
+.video-tedfi-startup{
+    background: #000;
+    position: relative;
+    margin-top: 100px;
+}
+.video-tedfi-startup h4 {
+    color: #F1AC1C;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.video-tedfi-startup .btn.btn-lg-bt {
+    border: 1.5px solid #F1AC1C;
+    color: #F1AC1C;
+    width: 185px;
+    border-radius: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin: auto;
+}
+.tdefi-banner {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.tdefi-banner img {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.video-tedfi-startup .btn.btn-lg-bt:hover{
+    background: #F1AC1C;
+    color: #fff;
+}
+.video-frame {
+    float: left;
+    width: 100%;
+    margin: 20px 0px;
+}
+section.video-tedfi-startup.about-slider h4 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+section.video-tedfi-startup.about-slider p {
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+
+#slider{
+    margin:auto;
+    width:100%;
+    height:400px;
+    position:relative;
+    }
+    .slide{
+    list-style:none;
+    }
+    #slider>li{
+    position:absolute;
+    top:5px;
+    left:5px;
+    right:5px;
+    bottom:5px;
+    
+}
+.wrapper-slider {
+    float: left;
+    width: 100%;
+}
+
+section.video-tedfi-startup.about-slider h5 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.tdefi-action {
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.tdefi-action div {
+    width: 28%;
+    float: left;
+    padding-top: 15px;
+}
+.tdefi-action div h6 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.tdefi-action div p {
+    font-size: 15px !important;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+
+.gallery-section {
+    transition: 0.3s;
+    float: left;
+    width: 100%;
+  }
+ .gallery-section figure img{
+    width: 100%;
+    margin-top: 20px;
+ }
+ figure.gallery__thumb {
+    margin: 0px;
+}
+.wd-last{
+    width: 16% !important;
+}
+
+.our-spker-tdfi {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #f1ac1c;
+    border-radius: 15px;
+    height: 300px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.our-spker-tdfi:hover{
+    box-shadow: 7px 7px 17px -10px #a6a0a0;
+}
+.our-spker-tdfi img {
+    width: 120px;
+}
+.our-spker-tdfi h6 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+.our-spker-tdfi p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.socail-speker {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+.socail-speker li{
+    float: left;
+    margin-right: 10px;
+}
+.socail-speker li a{
+    width: 35px;
+    height: 35px;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+}
+.socail-speker li a:hover{
+    color: #F1AC1C;
+}
+.sppeker {
+    padding-bottom: 30px;
+}
+
+.height-300{
+    height: 420px;
+    position: relative;
+}
+.controls {
+    position: absolute;
+    left: 49%;
+  }
+  .controls img {
+    width: 25px;
+}  
+.margi-right {
+    margin-left: 10%;
+}
+  div#back {
+    top: -430px;
+    position: absolute;
+}
+  .controls div {
+    cursor: pointer;
+  }
+  .controls div.disabled {
+    opacity: 0;
+    cursor: default;
+  }
+  
+  .slider-agenda {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slider-agenda .slide {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    height: 170px;
+    background-color: #141414;
+    border: 2px solid #f1ac1c;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.7s ease-out;
+
+  }
+  .slider-agenda .slide p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.slider-agenda .slide h6 {
+    color: #f1ac1c;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  .slide--active {
+    opacity: 1;
+    z-index: 9;
+  }
+  
+  .prev,
+  .next {
+    opacity: 0.3;
+  }
+  
+  .prev {
+    transform: translate(0, -10%) scale(0.8);
+  }
+  
+  .next {
+    transform: translate(0, 80%) scale(0.8);
+  }
+
+  /* .slick-next, .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 30px !important;
+    height: 30px !important;
+    padding: 0;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    cursor: pointer;
+    color: #FFC107 !important;
+    border: none;
+    outline: 0;
+    background: none;
+    border: 1px solid #f1ac1c !important;
+    border-radius: 50%;
+} */
+
+.slick-slide .demo-box{
+    background: #141414 !important;
+    padding: 10px;
+    height: 270px;
+    display: block;
+}
+.slick-slide .demo-box p{
+    background: none !important;
+    text-align: center !important;
+}
+.slick-slide .demo-box img {
+    border-radius: 10px !important;
+}
+.slick-next:before{
+    display: none;
+}
+.slick-prev:before {
+    display: none;
+}
+button.slick-next.slick-arrow {
+    background: url('../../img/tdefi-starup/next-btn-icon.png') no-repeat;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+button.slick-prev.slick-arrow {
+    background: url('../../img/tdefi-starup/per-btn-icon.png') no-repeat;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+.shrink{
+    z-index: 999 !important;
+}
+
+.esteemed-guest p {
+    color: #f1ac1c !important;
+    font-weight: 800 !important;
+    font-size: 12px !important;
+}
+.esteemed-guest img {
+    margin-bottom: 50px;
+    width: 160px;
+    height: 160px;
+    transition: all .3s ease;
+    border-radius: 50%;
+
+}
+.esteemed-guest img:hover{
+    box-shadow: 0px 0px 13px 3px rgb(82 82 82);
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.esteemed-guest h6 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.esteemed-guest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+section.video-tedfi-startup.esteemed-guest{
+    margin-top: 50px;
+}
+
+@media (min-width:768px) and (max-width:1024px){
+#slider {
+  height: 250px;
+}
+section.video-tedfi-startup.about-slider h4 {
+    font-size: 28px;
+}
+.esteemed-guest h6 {
+    font-size: 12px;
+    letter-spacing: 0px;
+}
+.esteemed-guest p {
+    font-size: 10px !important;
+}
+.our-spker-tdfi h6 {
+    font-size: 12px;
+}
+.our-spker-tdfi p {
+    font-size: 10px;
+}
+.our-spker-tdfi{
+    height: 200px;
+}
+.our-spker-tdfi img {
+    width: 50px;
+}
+}
+
+@media (min-width:320px) and (max-width:767px){
+    .esteemed-guest{
+        margin-top: 0px;
+    }
+    section.video-tedfi-startup.esteemed-guest{
+        margin-top: 0px !important;
+    }
+    section.video-tedfi-startup.esteemed-guest .col{
+        width: 100%;
+        float: left;
+        flex: none;
+    }
+    .esteemed-guest img {
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+    }
+    .video-tedfi-startup h4 {
+        font-size: 15px;
+        margin-bottom: 20px !important;
+    }
+    .video-tedfi-startup .btn.btn-lg-bt {
+        color: #F1AC1C;
+        width: 120px;
+        font-size: 14px;
+    }
+    .top-marging{
+        margin-top: 75px !important;
+    }
+    .video-tedfi-startup{
+        margin-top: 0px;
+        padding-bottom: 0px;
+    }
+    .tdefi-banner img {
+        margin-bottom: 30px;
+    }
+    .height-300 {
+        height: 250px;
+        margin-bottom: 50px;
+    }
+    .slider-agenda .slide{
+        height: 120px;
+        top:0px
+    }
+    section.video-tedfi-startup.about-slider h4 {
+        font-size: 24px !important;
+        font-weight: 700;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-align: center;
+        display: block !important;
+    }
+    section.video-tedfi-startup.about-slider p {
+
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+    #slider {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    section.video-tedfi-startup.about-slider h5 {
+        font-size: 24px !important;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .tdefi-action div {
+        width: 100% !important;
+        float: left;
+        padding-top: 15px;
+        text-align: center;
+        border: 1px solid #494949;
+        margin-bottom: 15px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 8px;
+    }
+    .slider-agenda .slide h6 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .slider-agenda .slide p {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .controls{
+        z-index: 10 !important;
+    }
+    .controls img {
+        width: 20px;
+    }
+    div#back {
+        top: -290px;
+        position: absolute;
+    }
+    .slider-agenda {
+        margin-top: 60px;
+    }
+}
