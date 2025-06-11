@@ -12,11 +12,26 @@ html * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+.navHeader {
+  background-color: transparent;
+  background-image: radial-gradient(
+    circle,
+    rgba(15, 17, 2, 0) 2px,
+    rgba(15, 17, 2, 0.64) 0px,
+    rgba(255, 255, 255, 0.39) 100%
+  );
+  background-size: 4px 4px;
+  backdrop-filter: blur(3px);
+  opacity: 1;
+  mask: linear-gradient(rgb(0, 0, 0) 60%, transparent);
+}
 body {
   font-size: 100%;
   font-family: "DM Sans", sans-serif !important;
   background-color: #000;
+  background-image: radial-gradient(transparent 1px, #0f1115 0);
+  background-size: 4px 4px;
+  opacity: 1;
 }
 
 /* TDeFi Amplify page css start */
