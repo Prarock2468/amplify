@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,7 +15,7 @@ html * {
 
 body {
   font-size: 100%;
-  font-family: "Droid Serif", serif;
+  font-family: "DM Sans", sans-serif !important;
   background-color: #000;
 }
 
@@ -1238,10 +1240,6 @@ body {
   }
 }
 
-
-
-
-
 @keyframes slidingText {
   0% {
     transform: translateY(40px);
@@ -1350,14 +1348,12 @@ li[id^="txtAni"] {
 }
 
 @media screen and (max-width: 350px) {
-  .slidetextWrapper{
+  .slidetextWrapper {
     flex-wrap: wrap;
     gap: 1px;
     justify-content: center;
-
   }
 }
-
 
 .footer {
   background-color: #030303;
